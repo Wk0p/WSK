@@ -8,6 +8,7 @@
 
     <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2fb8b8bdb9.js" crossorigin="anonymous"></script>
 
     <style>
       .bd-placeholder-img {
@@ -68,24 +69,26 @@ html { scroll-behavior: smooth;}
 
 <!-- Begin page content -->
 <body>
-
+<main>
 
   
   
   <!--Body-->
-  
+ 
   <div class="container" id="section1">
     <h1 class="mt-5">About</h1>
     <p class="lead" id="text">
 	<h2>Jacob 'WSK' Koprucki</h2>
+	
 	I'm a videographer with over 5years of experiance in the industry. My epertiese ranges from videography, sound production and video editing. I have created videos for a braod range of things, from music videos, to advertisments, to showreels.<br><br>	As a solo act I can guarnatee you that the job will be done up to your standards and then some more. I work closley with my customers and make sure that everything is as you want it to be. Weather it is colour correction on that one scene or a specific media format that you need. The policy is to make the customer happy, to communicate your message in the best possible form.<br><br>
 To see my work check out the 'Videos' section.</p>
 
   </div>
-  
-<img src="wsk.png" id="image-right">
+ 
+ <img src="wsk.png" id="image-right">
 
-   <div class="container" class="video" id="section2">
+<br>
+   <div class="container" ="video" id="section2">
     <h1 class="mt-5">Videos</h1>
   <table>
   <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
@@ -112,28 +115,37 @@ To see my work check out the 'Videos' section.</p>
 
   
   <br>
-   <div class="container" id="">
-    <h1 class="mt-5">Videos</h1>
-    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
-  <div class="container" id="">
-    <h1 class="mt-5">Videos</h1>
-    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
-  <div class="container" id="">
-    <h1 class="mt-5">Videos</h1>
-    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
-  <div class="container" id="">
-    <h1 class="mt-5">Videos</h1>
-    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
   
-  <div class="container" id="section3">
-    <h1 class="mt-5">Contact</h1>
-    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  
+  
+<div class="contact" id="section3">
+  <h2>Contact Form</h2>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="surname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+ 
+ <div class='SM'>
+  <tabel>
+<i class="fab fa-instagram" href="https://www.instagram.com/wskvideos/"> WSK Videos</i>
+<i class="fab fa-facebook" href="https://www.instagram.com/wskvideos/"> WSK Videos</i>
+<i class="fab fa-vimeo" href="https://www.instagram.com/wskvideos/"> WeStayKreative Videos</i>
+<i class="fas fa-envelope" href="https://www.instagram.com/wskvideos/"> WSKVideos@Email.ie</i>
+  </table>
   </div>
 </main>
+
 <!--Body End-->
 </body>
 
@@ -141,7 +153,7 @@ To see my work check out the 'Videos' section.</p>
 <!--Footer-->
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="text-muted">Fully created by WKOP</span>
   </div>
 </footer>
 <!--Footer End-->
