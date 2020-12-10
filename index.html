@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="WSK Videos">
     <title>WSK Videos</title>
@@ -11,17 +12,9 @@
 <script src="https://kit.fontawesome.com/2fb8b8bdb9.js" crossorigin="anonymous"></script>
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }     
-	  
 html { scroll-behavior: smooth;}
-#section1 
+#section
+#section1
 #section2
 #section3
     </style>
@@ -31,11 +24,9 @@ html { scroll-behavior: smooth;}
 	<link href="wsk.js" rel="stylesheet">
   </head>
   
-  <body>
-  
-<!--Navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
-  <a class="navbar-brand" href="//">WSK Videos</a>
+ <body>
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+  <a class="navbar-brand" href="#section">WSK Videos</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>
@@ -43,7 +34,7 @@ html { scroll-behavior: smooth;}
   <div class="collapse navbar-collapse" id="navbarsExampleDefault" >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#section">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#section1">About</a>
@@ -57,67 +48,54 @@ html { scroll-behavior: smooth;}
       
     </ul>
 </nav>
-<div id="hero-image">
-<div class='hero-text'>
-<h1>WSK</h1>
-<p>Test</p>
-<button href="#section3">Contact</button>
+ 
+<div id="maincontainer">
+
+<div id="section">
+    
+    <img class="header_pic" src="image-one.jpg">
+    
 </div>
 
-  </div>  
-<!--Navigation bar End-->
-
-<!-- Begin page content -->
-<body>
-<main>
-
-  
-  
-  <!--Body-->
- 
-  <div class="container" id="section1">
-    <h1 class="mt-5">About</h1>
-    <p class="lead" id="text">
-	<h2>Jacob 'WSK' Koprucki</h2>
-	
-	I'm a videographer with over 5years of experiance in the industry. My epertiese ranges from videography, sound production and video editing. I have created videos for a braod range of things, from music videos, to advertisments, to showreels.<br><br>	As a solo act I can guarnatee you that the job will be done up to your standards and then some more. I work closley with my customers and make sure that everything is as you want it to be. Weather it is colour correction on that one scene or a specific media format that you need. The policy is to make the customer happy, to communicate your message in the best possible form.<br><br>
-To see my work check out the 'Videos' section.</p>
-
-  </div>
- 
- <img src="wsk.png" id="image-right">
-
-<br>
-   <div class="container" ="video" id="section2">
-    <h1 class="mt-5">Videos</h1>
-  <table>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="480" height='330'frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  </table>
-  
-  <table>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="480" height='330'frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  </table>
-  
-  <table>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="480" height='330'frameborder="0" allowfullscreen></iframe></th>
-  <th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="480" height='330' frameborder="0" allowfullscreen></iframe></th>
-  </table>
-  
-  </div>
-  
 
 
 
-  
-  <br>
-  
-  
-  
+<div class="about" id="section1">
+<img class="pic_right" src="wsk.png">
+    
+<h1>About</h1>
+
+<h2>Jacob 'WSK' Koprucki</h2>
+<p>I'm a videographer with over 5years of experiance in the industry. My expertise ranges from videography, sound production and video editing. I have created videos for a braod range of things, from music videos, to advertisments, to showreels.</p>
+<p>As a solo act I can guarnatee you that the job will be done up to your standards and then some more. I work closley with my customers and make sure that everything is as you want it to be. Weather it is colour correction on that one scene or a specific media format that you need. The policy is to make the customer happy, to communicate your message in the best possible form.</p>
+<p>To see my work check out the 'Videos' section.</p>
+</div>
+
+
+
+<div class="video" id="section2">
+<h1>Video</h1>
+<table>
+<tr>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="400" height='300'frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+</tr>
+<tr>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="400" height='300'frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+</tr>
+<tr>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/85190276" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/76466269" display='inline' width="400" height='300'frameborder="0" allowfullscreen></iframe></th>
+<th><iframe title="vimeo-player" src="https://player.vimeo.com/video/65653763" display='inline' width="400" height='300' frameborder="0" allowfullscreen></iframe></th>
+</tr>
+</table>
+</div>
+
+
+
 <div class="contact" id="section3">
   <h2>Contact Form</h2>
   <form action="/action_page.php">
@@ -146,6 +124,7 @@ To see my work check out the 'Videos' section.</p>
   </div>
 </main>
 
+
 <!--Body End-->
 </body>
 
@@ -158,11 +137,5 @@ To see my work check out the 'Videos' section.</p>
 </footer>
 <!--Footer End-->
 
-
-
-</main><!-- /.container -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-	  <script src="../assets/dist/js/bootstrap.bundle.js"></script>	  
 </body>
 </html>
