@@ -215,3 +215,17 @@ input[type=submit]:hover {
 .header_pic {
     width:100%;
 }
+
+@media only screen and (min-width: 600px) {
+  .video {width: 8.33%;}
+  .about {width: 16.66%;}
+  .contact {width: 25%;}
+}
+
+@media only screen and (max-width: 600px) {
+	
+.video {width: 8.33%;}
+  .about {width: 16.66%;}
+  .contact {width: 25%;}
+	
+}
